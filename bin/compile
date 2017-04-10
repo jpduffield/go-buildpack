@@ -7,6 +7,7 @@ ENV_DIR=${3:-}
 DEPS_DIR=${4:-}
 export BUILDPACK_DIR=`dirname $(readlink -f ${BASH_SOURCE%/*})`
 
+echo $*
 GO_VERSION="1.7.5"
 GO_MD5="c9de5bb95790044de676301898e92a1b"
 
